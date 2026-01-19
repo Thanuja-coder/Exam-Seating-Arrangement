@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="header">
+    <img src="/static/atria_logo.png">
+</div>
+
+<div class="card">
+    <h2>Exam Seating – Admin Panel</h2>
+    <div class="sub-title">Atria Institute of Technology</div>
+
+    <form method="post">
+        <label>Exam Name</label>
+        <input type="text" name="exam" required>
+
+        <label>Subject</label>
+        <input type="text" name="subject" required>
+
+        <label>Exam Date</label>
+        <input type="date" name="date" required>
+
+        <label>Number of Rooms</label>
+        <input type="number" name="rooms" required>
+
+        <button type="submit">Generate Seating</button>
+    </form>
+</div>
+
+<div class="footer">
+    © Atria Institute of Technology, Bengaluru
+</div>
+
+</body>
+</html>
